@@ -90,8 +90,10 @@ class_names = model_info["classes"]
 st.title(f"{crop} Disease Detection")
 st.markdown("### Limitation: Please upload only specific plant-related images.")
 
-example_path = os.path.join("assets", "example_leaf.jpg")
-st.image(example_path, caption="Example of a clear single leaf image to upload", width=300)
+
+example_path = os.path.join("assets", "example.jpg")
+image = Image.open(example_path)
+st.image(image, caption="Example of a clear single leaf image to upload", width=300)
 
 st.markdown("### Upload an image of the plant:")
 
