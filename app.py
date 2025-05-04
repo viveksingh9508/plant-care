@@ -79,7 +79,7 @@ st.sidebar.title("Select Crop")
 crop = st.sidebar.selectbox("Choose a crop", list(MODELS.keys()))
 
 st.sidebar.markdown("---")
-st.sidebar.info("Upload an image and get a prediction for the selected crop.")
+st.sidebar.info("Upload an image of leaf of selected crop (use single clear image).")
 
 # Load model path and class labels
 model_info = MODELS[crop]
