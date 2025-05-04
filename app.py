@@ -91,7 +91,7 @@ st.title(f"{crop} Disease Detection")
 st.markdown("### Limitation: Please upload only specific plant-related images.")
 
 
-example_path = os.path.join("assets", "example.jpg")
+example_path = os.path.join("assets", "example_leaf.JPG")
 image = Image.open(example_path)
 st.image(image, caption="Example of a clear single leaf image to upload", width=300)
 
