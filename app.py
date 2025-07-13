@@ -41,7 +41,7 @@ def get_ai_remedy_groq(disease_name, crop_name):
     data = {
         "model": "llama3-8b-8192",
         "messages": [
-            {"role": "system", "content": "You are an agricultural expert who gives solutions for plant diseases within 800 tokens. "},
+            {"role": "system", "content": "You are an agricultural expert who gives solutions for plant diseases within 800 tokens in Hindi as well as in English. "},
             {"role": "user", "content": prompt}
         ],
         "temperature": 0.7,
