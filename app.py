@@ -5,7 +5,7 @@ from PIL import Image
 import os
 import requests
 
-GROQ_API_KEY = "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"  # Replace with your actual API key
+GROQ_API_KEY = "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"  # Replace with your actual API key
 
 # Set page config for a polished look
 st.set_page_config(
